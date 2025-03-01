@@ -1,4 +1,4 @@
-pipeline{
+qpipeline{
     
     agent any
     tools {maven 'MavenV3'}
@@ -8,7 +8,7 @@ pipeline{
             
             steps{
                 
-                git branch: 'main',  url: 'https://github.com/fts1999/SpringPetClinic.git'
+                git branch: 'main',  url: 'https://github.com/fts1999/SpringRESTful.git'
             }
         }
         
